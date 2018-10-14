@@ -341,7 +341,7 @@
   (constant (o-excl "O_EXCL"))
   (constant (o-trunc "O_TRUNC"))
   (constant (o-append "O_APPEND"))
-  
+
   (constant (o-noctty "O_NOCTTY"))
   (constant (o-nonblock "O_NONBLOCK"))
   (constant (o-ndelay "O_NDELAY"))
@@ -377,11 +377,11 @@
   (constant (o-directory "O_DIRECTORY"))
 
   ;; bits to save after open
-  
+
   (constant (fmask "FMASK"))
 
   ;; bits settable by fcntl(F_SETFL, ...)
-  
+
   (constant (fcntlflags "FCNTLFLAGS"))
   (constant (fappend "FAPPEND"))
   (constant (fasync "FASYNC"))
@@ -471,7 +471,6 @@
     (sec "tv_sec" :type time-t)
     (usec "tv_usec" :type suseconds-t)))
 
-#-bsd
 (progn
   (constant (clock-realtime "CLOCK_REALTIME"))
   (constant (clock-monotonic "CLOCK_MONOTONIC")))
