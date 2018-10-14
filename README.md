@@ -24,7 +24,6 @@ generated docs under manual/. This procedure has only been tested
 with SBCL.
 
 * OpenBSD 6.3 notes
-
  To load this iolib in OpenBSD sbcl, just use quicklisp after cloned
 this project into a quilisp merged directory.
 
